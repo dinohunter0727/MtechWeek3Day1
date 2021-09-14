@@ -37,10 +37,15 @@ nav div h4 {
     width: 75%;
     height: auto;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .boxes div {
-    float: left;
+
     height: 450px;
     width: 250px;
     border: solid goldenrod;
