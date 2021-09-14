@@ -1,0 +1,82 @@
+html, body, h1, h2, h3, p, h3, div, nav {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav {
+    width: auto;
+    padding: 25px;
+    background-color: goldenrod;
+    position: relative;
+}
+
+nav div h4 {
+    margin: auto 10px;
+    display: inline;
+    color: whitesmoke;
+}
+
+#title {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+ 
+#bar {
+    top: 20px;
+    position: absolute;
+    right: 30px;
+    
+}
+.boxes {
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.boxes div {
+    float: left;
+    height: 450px;
+    width: 250px;
+    border: solid goldenrod;
+    border-width: 2px;
+    border-radius: 7px;
+    margin: 20px 5px;
+    position: relative;
+}
+.boxes div h1 {
+    font-size: 30px;
+    padding: 20px 0px 10px 10px;
+    font-weight: lighter;
+}
+.boxes div p {
+    font-size: 14px;
+    text-align: left;
+    padding: 6px 15px;
+    word-wrap: break-word;
+    
+}
+
+.boxes div button {
+    width: 90%;
+    height: 25px;
+    margin: 10px 10px;
+    position: absolute;
+    bottom: 10px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 3px;
+    color: whitesmoke;
+}
+
+.boxes div button:hover {
+    border: solid darkgoldenrod;
+    border-radius: 3px;
+    border-width: 2px;
+}
+
